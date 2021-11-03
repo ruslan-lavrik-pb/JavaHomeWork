@@ -7,9 +7,15 @@ public class Reader {
     private String dataHeppiBezd;
     private String telefonNamder;
 
+    public Reader(String fioName, String namberTiket, String fakyltetName, String dataHeppiBezd, String telefonNamder) {
+        this.fioName = fioName;
+
+    }
+
     public String getFioName() {
         return fioName;
     }
+
 
     public void setFioName(String fioName) {
         this.fioName = fioName;
@@ -46,5 +52,6 @@ public class Reader {
     public void setTelefonNamder(String telefonNamder) {
         this.telefonNamder = telefonNamder;
     }
-}
 
+
+}
