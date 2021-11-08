@@ -52,8 +52,4 @@ public class Veterinarian {
         System.out.println("на прием пришло животное " + animal.getName() + " из - " +animal.getLocation());
     }
 
-
-}
-
-
 }
