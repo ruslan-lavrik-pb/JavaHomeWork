@@ -33,7 +33,7 @@ public class Dog extends Animal{
     @Override
     public String toString() {
         return "Dog{" +
-                "Poroda='" + Poroda + '\'' +
+                "Name='" + getName() + '\'' +
                 '}';
     }
 }
