@@ -10,6 +10,9 @@ public class Animal {
         this.name = name;
     }
 
+    public Animal() {
+    }
+
     public void sleep() {
         System.out.println("Животное: " + name + " спит");
     }
